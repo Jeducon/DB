@@ -1,0 +1,1 @@
+SELECT * FROM v_q4_exhibit_count_by_hall ORDER BY exhibit_count DESC;

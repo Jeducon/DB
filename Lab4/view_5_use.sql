@@ -1,0 +1,1 @@
+SELECT * FROM v_q5_halls_total_value_gt_200k ORDER BY total_value DESC;

@@ -1,0 +1,1 @@
+SELECT * FROM v_q8_exhibits_above_hall_avg ORDER BY value DESC;

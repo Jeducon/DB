@@ -1,4 +1,4 @@
 SELECT COALESCE(SUM(r.cost),0) AS total_restoration_cost
 FROM restoration r
-RIGHT JOIN employee emp ON emp.id = r.employee_id
+JOIN employee emp ON emp.id = r.employee_id
 

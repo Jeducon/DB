@@ -1,0 +1,1 @@
+SELECT * FROM v_q9_exhibits_from_mystic_or_demonic ORDER BY name;

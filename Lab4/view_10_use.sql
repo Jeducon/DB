@@ -1,0 +1,1 @@
+SELECT * FROM v_q10_latest_expensive_restoration ORDER BY restoration_cost DESC;
