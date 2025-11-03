@@ -9,4 +9,4 @@ SELECT
 FROM restoration r
 JOIN exhibit   e  ON e.id  = r.exhibit_id
 JOIN employee  emp ON emp.id = r.employee_id
-WHERE r.cost > 1000;
+

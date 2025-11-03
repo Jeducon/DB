@@ -1,2 +1,3 @@
-SELECT * FROM v_q3_total_restoration_cost;
+SELECT * FROM v_expensive_restorations
+ORDER BY cost DESC;
 

@@ -1,9 +1,10 @@
-SELECT h.name AS hall, e_avg.avg_value
-FROM (
-    SELECT hall_id, ROUND(AVG(value), 2) AS avg_value
-    FROM exhibit
-    WHERE value IS NOT NULL
-    GROUP BY hall_id
-) AS e_avg
-JOIN hall h ON h.id = e_avg.hall_id
-ORDER BY avg_value DESC;
+CREATE TABLE employee_restorer (
+  specialization   varchar(150),
+  certification_no varchar(50)
+) INHERITS (employee);
+
+
+CREATE TABLE exhibit_valuable (
+  insurance_value  numeric(12,2),
+  security_level   varchar(20)
+) INHERITS (exhibit);
